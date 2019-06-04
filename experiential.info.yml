@@ -51,7 +51,6 @@ install:
   - path
   - quickedit
   - rdf
-  - rules
   - search
   - shortcut
   - system
