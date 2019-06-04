@@ -51,7 +51,7 @@ install:
   - path
   - quickedit
   - rdf
-  - redirect_after_login
+  - rules
   - search
   - shortcut
   - system
