@@ -1,0 +1,65 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.time_worked_entry.field_course
+    - field.field.node.time_worked_entry.field_date
+    - field.field.node.time_worked_entry.field_description_of_work
+    - field.field.node.time_worked_entry.field_hours_worked
+    - field.field.node.time_worked_entry.field_student
+    - node.type.time_worked_entry
+  module:
+    - datetime
+id: node.time_worked_entry.default
+targetEntityType: node
+bundle: time_worked_entry
+mode: default
+content:
+  field_course:
+    weight: 3
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+  field_date:
+    weight: 2
+    settings: {  }
+    third_party_settings: {  }
+    type: datetime_default
+    region: content
+  field_description_of_work:
+    weight: 5
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textarea
+    region: content
+  field_hours_worked:
+    weight: 4
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+    type: number
+    region: content
+  field_student:
+    weight: 1
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+  title:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  path: true
+  promote: true
+  status: true
+  sticky: true
+  uid: true

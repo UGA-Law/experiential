@@ -1,0 +1,7 @@
+status: '1'
+pattern: '[node:field_course] - [node:field_student:entity:field_preferred_first_name] [node:field_student:entity:field_last_name] - [node:field_date:date:custom:m-d-y]'
+php: 0
+escape: 0
+dependencies:
+  config:
+    - node.type.time_worked_entry

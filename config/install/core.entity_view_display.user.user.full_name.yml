@@ -1,0 +1,30 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.user.full_name
+    - field.field.user.user.field_first_n
+    - field.field.user.user.field_last_name
+    - field.field.user.user.field_middle_name_or_
+    - field.field.user.user.user_picture
+  module:
+    - user
+id: user.user.full_name
+targetEntityType: user
+bundle: user
+mode: full_name
+content:
+  field_last_name:
+    weight: 1
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+hidden:
+  field_first_n: true
+  field_middle_name_or_: true
+  masquerade: true
+  member_for: true
+  user_picture: true

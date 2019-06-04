@@ -1,0 +1,12 @@
+langcode: en
+status: true
+dependencies: {  }
+id: current_student
+label: 'current student'
+weight: 3
+is_admin: null
+permissions:
+  - 'access user profiles'
+  - 'create time_worked_entry content'
+  - 'delete own time_worked_entry content'
+  - 'edit own time_worked_entry content'
