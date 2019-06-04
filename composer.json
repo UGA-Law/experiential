@@ -1,5 +1,23 @@
 {
   "name": "uga-law/experiential",
   "description": "Experiential Learning Timesheet Distribution powered by Drupal 8",
-  "type": "drupal-profile"
+  "type": "drupal-profile",
+  "require": {
+    "drupal/token": "^1.5",
+    "drupal/auto_entitylabel": "^2.1@beta",
+    "drupal/ctools": "^3.2",
+    "drupal/devel": "^2.1",
+    "drupal/devel_generate": "^2.1",
+    "drupal/masquerade": "^2.0@beta",
+    "drupal/tweme": "^4.1",
+    "drupal/migrate_plus": "^4.2",
+    "drupal/migrate_source_csv": "^2.2",
+    "drupal/front_page": "^1.0@beta",
+    "drupal/externalauth": "^1.1",
+    "drupal/pathauto": "^1.4",
+    "drupal/migrate_tools": "^4.1",
+    "drupal/duration_field": "^1.6",
+    "drupal/views_aggregator": "1.x-dev",
+    "drupal/mailcontrol": "^1.2"
+  }
 }
