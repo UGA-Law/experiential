@@ -1,0 +1,23 @@
+uuid: e3f70819-acce-4776-86b7-2285b907902a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_crn
+    - node.type.experiential_course
+id: node.experiential_course.field_crn
+field_name: field_crn
+entity_type: node
+bundle: experiential_course
+label: CRN
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

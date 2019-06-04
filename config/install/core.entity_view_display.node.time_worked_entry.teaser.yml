@@ -1,0 +1,28 @@
+uuid: ebc0a771-6a09-4a34-97d3-f0dad9f25f84
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.time_worked_entry.field_course
+    - field.field.node.time_worked_entry.field_date
+    - field.field.node.time_worked_entry.field_description_of_work
+    - field.field.node.time_worked_entry.field_student
+    - node.type.time_worked_entry
+  module:
+    - user
+id: node.time_worked_entry.teaser
+targetEntityType: node
+bundle: time_worked_entry
+mode: teaser
+content:
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_course: true
+  field_date: true
+  field_description_of_work: true
+  field_student: true

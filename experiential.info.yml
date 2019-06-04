@@ -1,0 +1,80 @@
+name: Experiential Learning Timesheets Installation Profile
+type: profile
+description: 'A Drupal 8 installation profile to create a timesheet system for students in experiential learning courses.'
+core: 8.x
+
+distribution:
+  name: Experiential Learning Timesheets Distribution
+
+install:
+  - action
+  - auto_entitylabel
+  - automated_cron
+  - big_pipe
+  - block
+  - block_content
+  - breakpoint
+  - ckeditor
+  - color
+  - comment
+  - config
+  - contact
+  - contextual
+  - ctools
+  - datetime
+  - dblog
+  - devel
+  - devel_generate
+  - duration_field
+  - dynamic_page_cache
+  - editor
+  - externalauth
+  - field
+  - field_ui
+  - file
+  - filter
+  - front_page
+  - help
+  - history
+  - image
+  - link
+  - mailcontrol
+  - masquerade
+  - menu_ui
+  - migrate
+  - migrate_plus
+  - migrate_source_csv
+  - migrate_tools
+  - node
+  - options
+  - page_cache
+  - path
+  - quickedit
+  - rdf
+  - redirect_after_login
+  - search
+  - shortcut
+  - system
+  - taxonomy
+  - text
+  - token
+  - toolbar
+  - tour
+  - update
+  - user
+  - views_aggregator
+  - views_ui
+  - menu_link_content
+  - pathauto
+
+dependencies:
+  - node
+  - block
+  - views
+
+themes:
+  - stable
+  - classy
+  - seven
+  - tweme
+

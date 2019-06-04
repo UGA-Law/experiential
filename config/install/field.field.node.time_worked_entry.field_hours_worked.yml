@@ -1,0 +1,23 @@
+uuid: aaee6b7b-e78e-4682-aaf7-382de31fdf87
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_hours_worked
+    - node.type.time_worked_entry
+id: node.time_worked_entry.field_hours_worked
+field_name: field_hours_worked
+entity_type: node
+bundle: time_worked_entry
+label: 'Hours Worked'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: float

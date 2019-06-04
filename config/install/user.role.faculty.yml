@@ -1,0 +1,10 @@
+uuid: 1dacc940-1da7-4599-8436-26ae51e95a33
+langcode: en
+status: true
+dependencies: {  }
+id: faculty
+label: faculty
+weight: 4
+is_admin: null
+permissions:
+  - 'access user profiles'

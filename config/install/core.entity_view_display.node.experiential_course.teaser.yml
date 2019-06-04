@@ -1,0 +1,20 @@
+uuid: 77727e81-a973-42a1-b3ae-46b149d6044b
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - node.type.experiential_course
+  module:
+    - user
+id: node.experiential_course.teaser
+targetEntityType: node
+bundle: experiential_course
+mode: teaser
+content:
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }

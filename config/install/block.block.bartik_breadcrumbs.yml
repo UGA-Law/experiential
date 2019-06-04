@@ -1,0 +1,22 @@
+uuid: 438e9885-5aff-45df-a3ef-4a2e0e2ea312
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - bartik
+_core:
+  default_config_hash: JwJpLb_lG3ctS7DkS9XTE0PTu3twOklTrzwzClYerfs
+id: bartik_breadcrumbs
+theme: bartik
+region: breadcrumb
+weight: 0
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  provider: system
+  label_display: '0'
+visibility: {  }

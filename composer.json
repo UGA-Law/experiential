@@ -1,0 +1,31 @@
+{
+  "name": "uga-law/experiential",
+  "description": "Experiential Learning Timesheet Distribution powered by Drupal 8",
+  "type": "drupal-profile",
+  "license": "MIT",
+  "require": {
+    "composer/installers":"~1.0",
+    "tonystar/drupal-tweme":"^0.4.1"
+  },
+  "repositories": [
+    {
+      "type":"package",
+      "package":{
+        "name":"tonystar/drupal-tweme",
+        "type":"drupal-theme",
+        "version":"0.4.1",
+        "dist":{
+          "url":"https://ftp.drupal.org/files/projects/tweme-8.x-4.1.zip",
+          "type":"zip"
+        }
+      }
+    }
+  ],
+  "extra": {
+    "installer-paths":{
+      "themes/tweme":[
+        "tonystar/drupal-tweme"
+      ]
+    }
+  }
+}

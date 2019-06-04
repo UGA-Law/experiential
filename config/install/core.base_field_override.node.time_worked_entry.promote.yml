@@ -1,0 +1,22 @@
+uuid: 02086c23-0c17-465f-be76-ef2882fdf2f8
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.time_worked_entry
+id: node.time_worked_entry.promote
+field_name: promote
+entity_type: node
+bundle: time_worked_entry
+label: 'Promoted to front page'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

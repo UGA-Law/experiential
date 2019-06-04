@@ -1,0 +1,22 @@
+uuid: 9a7d727b-74e0-44b9-a3a5-c50862cecdc2
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: uid_nid
+label: uid-nid
+type: 'canonical_entities:node'
+pattern: '[node:field_student:entity:uid]-[node:nid]'
+selection_criteria:
+  9554f235-1d6b-47bf-b3a2-fae969cf46c8:
+    id: node_type
+    bundles:
+      time_worked_entry: time_worked_entry
+    negate: false
+    context_mapping:
+      node: node
+    uuid: 9554f235-1d6b-47bf-b3a2-fae969cf46c8
+selection_logic: and
+weight: -5
+relationships: {  }

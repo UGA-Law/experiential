@@ -1,0 +1,36 @@
+uuid: 93b88a4b-f412-4da5-916c-b0431764a9ca
+langcode: en
+status: true
+dependencies:
+  module:
+    - options
+    - user
+id: user.field_class_year
+field_name: field_class_year
+entity_type: user
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: 1L
+      label: 1L
+    -
+      value: 2L
+      label: 2L
+    -
+      value: 3L
+      label: 3L
+    -
+      value: LLM
+      label: LLM
+    -
+      value: MSL
+      label: MSL
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false
