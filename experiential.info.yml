@@ -72,8 +72,8 @@ dependencies:
   - views
 
 themes:
+  - bartik
   - stable
   - classy
   - seven
   - tweme
-
